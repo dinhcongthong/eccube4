@@ -1,0 +1,57 @@
+!dummy
+!.gitmodule
+composer.phar
+/vendor/
+/app/Plugin/OrderCustomize
+/app/Plugin/FutureTopPage
+/node_modules/
+/var/*
+!/var/.gitkeep
+/app/cache/*
+!/app/cache/.gitkeep
+/app/log/*
+!/app/log/.gitkeep
+!/app/Plugin/.gitkeep
+/app/Plugin/OrderCustomize
+/app/template/*
+!/app/template/Mail
+!/app/template/admin
+!/app/template/default
+!/app/template/user_data
+!/app/template/smartphone
+/app/proxy/entity/*
+!/app/proxy/entity/.gitkeep
+!/html/plugin/.gitkeep
+/html/install/temp/*
+/html/upload/save_image/*
+/html/plugin/PickupSliders
+!/html/upload/save_image/.gitkeep
+/html/upload/temp_image/*
+!/html/upload/temp_image/.gitkeep
+/html/upload/temp_plugin/*
+/html/user_data/*
+!/html/user_data/assets/css/customize.css
+!/html/user_data/assets/js/customize.js
+!/html/user_data/.gitkeep
+/src/Eccube/Resource/config/*.dist.php
+/tests/tmp/*
+/reports/*
+.idea
+.vscode/
+*.php~
+.maintenance
+*.neon
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> friendsofphp/php-cs-fixer ###
+.php_cs
+.php_cs.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> symfony/web-server-bundle ###
+.web-server-pid
+###< symfony/web-server-bundle ###
